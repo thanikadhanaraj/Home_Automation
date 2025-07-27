@@ -1,45 +1,45 @@
-# Home_Automation
+### Home_Automation
 Control home appliances wirelessly using a PS4 DualShock 4 controller paired over Bluetooth with an ESP32 microcontroller.
 This project uses PS4 buttons to control multiple relay modules, enabling wireless switching of devices like lights, fans, or motors.
 
-🎯 Features
-🔗 Wireless control via Bluetooth Classic
+# Steps
+ 1.Wireless control via Bluetooth Classic
 
-🎮 Control up to 3 appliances using PS4 buttons:
+2.Control up to 3 appliances using PS4 buttons:
 
-Cross → Relay 1 (GPIO 19)
+3.Cross → Relay 1 (GPIO 19)
 
-Circle → Relay 2 (GPIO 18)
+4.Circle → Relay 2 (GPIO 18)
 
-Square → Relay 3 (GPIO 17)
+5.Square → Relay 3 (GPIO 17)
 
-Triangle → Turns OFF all relays
+6.Triangle → Turns ON all relays
 
-⚡ Compatible with most 5V relay modules
+--> Compatible with most 5V relay modules
 
-💡 Ideal for home automation and smart control projects
+--> Ideal for home automation and smart control projects
 
-📦 Hardware Requirements
-ESP32 Dev Board
+## Hardware Requirements
+1.ESP32 Dev Board
 
-PS4 DualShock Controller
+2.PS4 DualShock Controller
 
-3-Channel Relay Module
+3. 3-Channel Relay Module
 
-Jumper Wires
+4.Jumper Wires
 
-USB cable for flashing
+5. USB cable for flashing
 
-Power supply (for relays if needed)
+6.Power supply (for relays if needed)
 
-🧠 Software Requirements
-Arduino IDE with ESP32 Board Package
+## Software Requirements
+1. Arduino IDE with ESP32 Board Package
 
-PS4-esp32 Library
+2. PS4-esp32 Library
 
-SixaxisPairTool (for initial Bluetooth pairing)
+3. SixaxisPairTool (for initial Bluetooth pairing)
 
-🚀 Setup Instructions
+# Setup Instructions
 Install the PS4 library in Arduino IDE
 
 Find your ESP32’s Bluetooth MAC address using the sample code
